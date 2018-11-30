@@ -1,0 +1,40 @@
+.header {display: inline-flex;
+    align-items: center;}
+
+.header__search {
+    width: 80%;
+    
+}
+
+.search__button {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search__form {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.search__bar {
+    width: calc(100% - 28px);
+    border: 0;
+    outline: none;
+    padding: 10px 0;
+    color: #364760;
+}
+
+.search__bar::placeholder {
+    color: #c8cfe3;
+}
+
+.header__profile{
+    display: flex;
+    align-items: flex-end;
+}
+
+.notify {
+    margin-right: 20px;
+}
