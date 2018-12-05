@@ -5,12 +5,16 @@
     width: 20%;
 }
 
-.logo-container{
+.logo-container {
     text-align: center;
     padding: 15px 0;
 }
 
-.nav__link{
+.nav{
+    margin-bottom: 225px;
+}
+
+.nav__link {
     text-decoration: none;
     color: #8692b2;
     display: flex;
@@ -18,14 +22,67 @@
     padding: 0 15px;
 }
 
-.nav__link:hover{
+.nav__link:hover {
     color: white;
     background-color: rgb(78, 87, 116);
 }
 
-.menu__item-text{
+.menu__item-text {
     margin-left: 20px;
     font-size: 14px;
     line-height: 45px;
 }
 
+.storage {
+    margin: 0 25px 60px;
+}
+
+.storage__status {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 90px 15px 0;
+}
+
+.storage__upgrade {
+    vertical-align: middle;
+}
+
+.progress {
+    height: 3px;
+    background-color: #363e54;
+}
+
+.progress__bar {
+    height: 100%;
+    background-color: #00b5f9;
+    width: 50%;
+}
+
+.upgrade {
+    display: block;
+    padding: 10px;
+    border: 1px solid #00b5f9;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.upgrade__text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.upgrade__text::before{
+    content: '';
+    display: inline-block;
+    background: url('../img/icons/arrow-up.png');
+    width: 10px;
+    height: 10px;
+    margin: 0 15px 0 10px;
+}
