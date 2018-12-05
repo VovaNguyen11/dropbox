@@ -30,11 +30,17 @@
 
 .search__bar::placeholder {
     color: #c8cfe3;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .header__profile {
+    color: #364760;
+    font-family: "Open Sans";
+    font-size: 13px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .notify {

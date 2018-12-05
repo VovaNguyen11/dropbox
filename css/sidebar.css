@@ -1,6 +1,6 @@
 .sidebar {
     position: fixed;
-    height: 817px;
+    height: 100%;
     background-color: #444c63;
     width: 20%;
 }
@@ -10,13 +10,15 @@
     padding: 15px 0;
 }
 
-.nav{
+.nav {
     margin-bottom: 225px;
 }
 
 .nav__link {
     text-decoration: none;
     color: #8692b2;
+    font-family: "Open Sans";
+    font-size: 14px;
     display: flex;
     align-items: center;
     padding: 0 15px;
@@ -76,9 +78,10 @@
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 14px;
+    font-weight: 300;
 }
 
-.upgrade__text::before{
+.upgrade__text::before {
     content: '';
     display: inline-block;
     background: url('../img/icons/arrow-up.png');
