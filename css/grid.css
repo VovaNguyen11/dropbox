@@ -1,13 +1,14 @@
 .grid {
     display: grid;
     grid-template-columns: 20% repeat(5, 16%);
-    grid-template-rows: 60px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 145px 1fr 1fr 1fr 25px;
     grid-template-areas: 
     'sidebar header header header header header'
     'sidebar main   main   main   main   main  '
     'sidebar main   main   main   main   main  '
     'sidebar main   main   main   main   main  '
-    'sidebar main   main   main   main   main  ';
+    'sidebar main   main   main   main   main  '
+    'sidebar footer footer footer footer footer ';
 }
 
 .grid__header {
@@ -20,4 +21,8 @@
 
 .grid__main{
     grid-area: main;
+}
+
+.grid__footer{
+    grid-area: footer;
 }

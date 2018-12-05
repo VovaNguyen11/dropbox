@@ -1,6 +1,8 @@
 .sidebar {
+    position: fixed;
     height: 817px;
     background-color: #444c63;
+    width: 20%;
 }
 
 .logo-container{

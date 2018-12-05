@@ -1,3 +1,6 @@
 @import 'grid.css';
 @import 'sidebar.css';
 @import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
